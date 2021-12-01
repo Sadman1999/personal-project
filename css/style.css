@@ -342,12 +342,14 @@ header {
 
 
 .about-me {
+    color: dimgray;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .about-me__img {
     box-shadow: var(--bs);
+    width: 500%;
 }
 
 @media (min-width: 600px) {
