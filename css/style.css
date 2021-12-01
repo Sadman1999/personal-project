@@ -44,7 +44,7 @@
 
 
 body {
-    background: var(--clr-light);
+    background:goldenrod;
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -107,7 +107,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section__title--intro {
-    font-weight: var(--fw-reg);
+    font-weight: var(--clr-accent);
 }
 
 .section__title--intro strong {
@@ -262,6 +262,7 @@ header {
 @media (min-width: 600px) {
     .intro {
         display: grid;
+        color: purple;
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
@@ -273,14 +274,14 @@ header {
     
     .intro__img {
         grid-area: img;
-        min-width: 250px;
+        min-width: 300px;
         position: relative;
         z-index: 2;
     }    
     
     .section__subtitle--intro {
         align-self: start;
-        grid-column: -1 / 1;
+        grid-column: -1 / 2;
         grid-row: 2;
         text-align: right;
         position: relative;
@@ -352,7 +353,7 @@ header {
 @media (min-width: 600px) {
     .about-me {
         display: grid;
-        grid-template-columns: 1fr 200px;
+        grid-template-columns: 1fr 350px;
         grid-template-areas: 
             "title img"
             "subtitle img"
